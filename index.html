@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template 5</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="h-100 container p-0">
+
+    <div class="row h-100 m-0">
+        <!--Sidebar-->
+        <nav class="d-none d-lg-block col-lg-3 col-xl-3 p-0 h-100">
+
+            <div class="position-fixed col-2 p-1 h-100">
+                <!--Logo-->
+                <div class="p-3">
+                    <h3 class="font-weight-bold wide-text">
+                        LOGO
+                    </h3>
+                </div>
+    
+                <!--Categories-->
+                <div class="category font-weight-bold">
+                    <a href="#" class="px-3 py-2 d-block text-decoration-none">Shirts</a>
+                    <a href="#" class="px-3 py-2 d-block text-decoration-none">Dresses</a>
+                    <a href="#jeans" data-toggle="collapse" class="px-3 py-2 d-block text-decoration-none text-body">
+                        Jeans <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div id="jeans" class="collapse show">
+                        <a href="#" class="px-3 py-2 d-block text-decoration-none text-body">
+                            <i class="fa fa-caret-right mr-2"></i>
+                             Skinny</a>
+                        <a href="#" class="px-3 py-2 d-block text-decoration-none">Relaxed</a>
+                        <a href="#" class="px-3 py-2 d-block text-decoration-none">Bootcut</a>
+                        <a href="#" class="px-3 py-2 d-block text-decoration-none">Straight</a>
+                    </div>
+                    <a href="#" class="px-3 py-2 d-block text-decoration-none">Jackets</a>
+                    <a href="#" class="px-3 py-2 d-block text-decoration-none">Gymwear</a>
+                    <a href="#" class="px-3 py-2 d-block text-decoration-none">Blazers</a>
+                    <a href="#" class="px-3 py-2 d-block text-decoration-none">Shoes</a>
+                </div>
+    
+                <!--Links-->
+                <a href="#footer" class="px-3 py-2 d-block text-decoration-none text-body">Contact</a>
+                <a href="javascript:void(0)" class="px-3 py-2 d-block text-decoration-none text-body" data-toggle="modal" data-target="#n-modal">Newsletter</a>
+                <a href="#footer" class="px-3 py-2 d-block text-decoration-none text-body">Subscribe</a>
+            </div>
+    
+        </nav>
+    
+        <!--Top menu on small screens-->
+        <header class="top-menu d-lg-none d-flex justify-content-between w-100 position-fixed">
+            <div class="wide-text py-4 px-3">LOGO</div>
+            <a href="javascript:void(0)" class="open-nav py-4 px-3">
+                <i class="fa fa-bars"></i>
+            </a>
+        </header>
+
+        <!--Sidebar on small screens-->
+        <nav class="side-bar h-100 d-lg-none">
+        
+        <!--Logo-->
+        <div class="p-3">
+
+            <!--Close icon-->
+            <i class="close-nav top-right fa fa-remove py-2 px-3 d-inline-block"></i>
+
+            <h3 class="font-weight-bold wide-text">
+                    LOGO
+            </h3>
+
+        </div>
+
+        <!--Categories-->
+        <div class="category font-weight-bold">
+            <a href="#" class="px-3 py-2 d-block text-decoration-none">Shirts</a>
+            <a href="#" class="px-3 py-2 d-block text-decoration-none">Dresses</a>
+            <a href="#jeans" data-toggle="collapse" class="px-3 py-2 d-block text-decoration-none text-body">
+                Jeans <i class="fa fa-caret-down"></i>
+            </a>
+            <div id="jeans" class="collapse show">
+                <a href="#" class="px-3 py-2 d-block text-decoration-none text-body">
+                    <i class="fa fa-caret-right mr-2"></i>
+                        Skinny</a>
+                <a href="#" class="px-3 py-2 d-block text-decoration-none">Relaxed</a>
+                <a href="#" class="px-3 py-2 d-block text-decoration-none">Bootcut</a>
+                <a href="#" class="px-3 py-2 d-block text-decoration-none">Straight</a>
+            </div>
+            <a href="#" class="px-3 py-2 d-block text-decoration-none">Jackets</a>
+            <a href="#" class="px-3 py-2 d-block text-decoration-none">Gymwear</a>
+            <a href="#" class="px-3 py-2 d-block text-decoration-none">Blazers</a>
+            <a href="#" class="px-3 py-2 d-block text-decoration-none">Shoes</a>
+        </div>
+
+        <!--Links-->
+        <a href="#footer" class="px-3 py-2 d-block text-decoration-none text-body">Contact</a>
+        <a href="javascript:void(0)" class="px-3 py-2 d-block text-decoration-none text-body" data-toggle="modal" data-target="#n-modal">Newsletter</a>
+        <a href="#footer" class="px-3 py-2 d-block text-decoration-none text-body">Subscribe</a>
+        
+    </nav>
+    
+        <!--Overlay effect on small screens-->
+        <div class="close-nav over-lay w-100 h-100" title="close side menu"></div>
+    
+        <!--Page content-->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 p-0">
+
+            <!-- Push down content on small screens -->
+            <div class="d-lg-none d-block" style="margin-top:83px"></div>
+
+            <!--Header-->
+            <header class="content-header px-2 d-flex justify-content-between">
+                <p class="my-4">Jeans</p>
+                <p class="my-4">
+                    <i class="fa fa-shopping-cart mr-3"></i>
+                    <i class="fa fa-search"></i>
+                </p>
+            </header>
+    
+            <!--Image header-->
+            <div class="img-header px-2">
+                <img src="images/jeans.jpg" class="w-100">
+                <div class="top-left py-3 px-4">
+                    <h1 class="d-none d-sm-block" style="font-size: 64px;">New arrivals</h1>
+                    <h1 class="d-sm-none">New arrivals</h1>
+                    <h1 class="d-none d-sm-block">COLLECTION 2016</h1>
+                    <p class="my-3">
+                        <a href="#quantity" class="btn rounded-0 border-0">SHOP NOW</a>
+                    </p>
+                </div>
+            </div>
+    
+            <!--Quantity of items-->
+            <div id="quantity" class="px-2">
+                <p class="my-3">8 items</p>
+            </div>
+    
+            <!--Products-->
+            <div class="products row mx-2">
+                <div class="col-lg-3 col-6">
+                    <div>
+                        <img src="images/jeans1.jpg" class="w-100">
+                        <p class="my-3">
+                            Ripped Skinny Jeans
+                            <br>
+                            <b>$24.99</b>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/jeans2.jpg" class="w-100">
+                        <p class="my-3">
+                            Mega Ripped Jeans
+                            <br>
+                            <b>$19.99</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div>
+                        <div class="p-img">
+                            <img src="images/jeans2.jpg" class="w-100">
+                            <span class="p-topleft px-2">New</span>
+                            <div class="p-button">
+                                <button type="button" class="border-0 py-2 px-3">
+                                Buy now 
+                                <i class="fa fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            Mega Ripped Jeans
+                            <br>
+                            <b>$19.99</b>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/jeans3.jpg" class="w-100">
+                        <p class="my-3">
+                            Washed Skinny Jeans
+                            <br>
+                            <b>$20.50</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div>
+                        <img src="images/jeans3.jpg" class="w-100">
+                        <p class="my-3">
+                            Washed Skinny Jeans
+                            <br>
+                            <b>$20.50</b>
+                        </p>
+                    </div>
+                    <div>
+                        <div class="p-img">
+                            <img src="images/jeans4.jpg" class="w-100">
+                            <span class="p-topleft px-2">Sale</span>
+                            <div class="p-button">
+                                <button type="button" class="border-0 py-2 px-3">
+                                Buy now 
+                                <i class="fa fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="my-3">
+                            Vintage Skinny Jeans
+                            <br>
+                            <b style="color: #f44336;">$14.99</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div>
+                        <img src="images/jeans4.jpg" class="w-100">
+                        <p class="my-3">
+                            Vintage Skinny Jeans
+                            <br>
+                            <b>$14.99</b>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/jeans1.jpg" class="w-100">
+                        <p class="my-3">
+                            Ripped Skinny Jeans
+                            <br>
+                            <b>$24.99</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Subscribe section-->
+            <div class="subscribe">
+                <h1>Subscribe</h1>
+                <p class="my-3">To get special offers and VIP treatment:</p>
+                <input type="text" placeholder="Enter e-mail" class="w-100 p-2 mb-3">
+                <button type="button" class="py-2 px-3 border-0">Subscribe</button>
+            </div>
+    
+            <!--Contact-->
+            <div class="contact m-0">
+                <div class="row w-100 px-2 m-0">
+                    <div class="col-4 px-2 text-center">
+                        <h4>Contact</h4>
+                        <p>Questions? Go ahead.</p>
+                        <form>
+                            <input class="contact-input w-100 mb-2 p-1" type="text" placeholder="Name" name="Name" required >
+                            <input class="contact-input w-100 mb-2 p-1" type="text" placeholder="Email" name="Email" required>
+                            <input class="contact-input w-100 mb-2 p-1" type="text" placeholder="Subject" name="Subject" required>
+                            <input class="contact-input w-100 mb-2 p-1" type="text" placeholder="Message" name="Message" required>
+                            <button type="button" class="c-button border-0 w-100 py-1 px-3">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-4 px-2 text-center">
+                        <h4>About</h4>
+                        <p class="mb-2">
+                            <a href="#">About us</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">We're hiring</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">Support</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">Find store</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">Shipment</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">Payment</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">Gift card</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">Return</a>
+                        </p>
+                        <p class="mb-2">
+                            <a href="#">Help</a>
+                        </p>
+                    </div>
+                    <div class="col-4 px-2">
+                        <h4>Store</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-fw fa-map-marker"></i>
+                             Company Name
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-fw fa-phone"></i>
+                            0044123123
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-fw fa-envelope"></i>
+                            ex@mail.com
+                        </p>
+                        <h4>We accept</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-fw fa-cc-amex"></i>
+                            Amex
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-fw fa-credit-card"></i>
+                            Credit Card
+                        </p>
+                        <br>
+                        <i class="sns fa fa-facebook-official"></i>
+                        <i class="sns fa fa-instagram"></i>
+                        <i class="sns fa fa-snapchat"></i>
+                        <i class="sns fa fa-pinterest-p"></i>
+                        <i class="sns fa fa-twitter"></i>
+                        <i class="sns fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Footer-->
+            <footer id="footer" class="py-4 text-center">
+                Powered by 
+                <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+            </footer>
+        </div>
+    </div>
+    
+    <!--Newsletter Modal-->
+    <div class="modal fade" id="n-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content rounded-0">
+                <div class="modal-body text-center">
+                    <i class="modal-close fa fa-remove close py-2 px-3" data-dismiss="modal"></i>
+                    <h2 class="wide-text">NEWSLETTER</h2>
+                    <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+                    <input type="text" placeholder="Enter e-mail" class="p-2 w-100 mb-3">
+                    <button type="button" class="m-button border-0 py-2 px-4">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        $(".open-nav").click(function() {
+            $(".side-bar").show();
+            $(".over-lay").show();
+        });
+
+        $(".close-nav").click(function() {
+            $(".side-bar").hide();
+            $(".over-lay").hide();
+        });
+        
+    </script>
+
+</body>
+</html>
